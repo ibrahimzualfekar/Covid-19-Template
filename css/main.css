@@ -1,0 +1,134 @@
+nav img{
+    /* width: 10%; */
+    width: 40px;
+}
+
+
+#header{
+    background-image: url("../imgs/shape-a.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#header .analys p {
+    font-size: 12px;
+}
+
+#header .arrow-button-icon{
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 50%; 
+    padding: 15px;
+    z-index: 999;
+    
+}
+
+.header-title{
+    font-size: 80px;
+    color: #056CC4;
+    
+}
+
+.header-title::before{
+    content: "COVID-19";
+    position: absolute;
+    left: 367px;
+    top: 58;
+    font-size: 20px;
+    color: red;
+    font-weight: 900;
+}
+.header-title::after{
+    content: "VIRUS";
+    position: absolute;
+    left: 369px;
+    top: 94px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* ***************** */
+#about ul li div {
+    cursor: pointer;
+}
+
+/* ************** */
+.section-four-box-img {
+    left: 258px;
+    top: -54px;
+}
+
+.section-four-box-img img{
+    width: 90px;
+}
+
+
+/* ******** */
+#eight{
+    background: rgb(39,102,187);
+    
+}
+
+#eight .layer{
+    background-image: url("../imgs/shape-a.png");
+    
+}
+
+#eight .eight-right{
+    background: rgb(27, 71, 161);
+}
+/* ********** */
+
+/* ten */
+#section-ten .ten-left-content{
+    width: 300px;
+}
+
+#section-ten .ten-boxes,
+#section-ten .ten-boxes2
+{
+    width: 80px;
+    height: 80px;
+}
+
+
+#section-ten .ten-boxes::after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f057";
+    position: absolute;
+    left: 27px;
+    top: -5px;
+    color: red ;
+
+}
+
+#section-ten .ten-boxes2::after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    position: absolute;
+    left: 27px;
+    top: -5px;
+    color: green ;
+    
+}
+/* ************ */
+#thirteen{
+    background: rgb(21, 28, 46);
+}
+#thirteen .thirteen-layer{
+    background-image: url("../imgs/shape-a.png");
+}
+
+#thirteen a.thirteen span img{
+    width :30px;
+}
+/* ************************* */
+
+
+
+
